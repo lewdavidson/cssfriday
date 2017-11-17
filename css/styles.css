@@ -6,6 +6,7 @@
 
 html {
   background: #3f3f3f;
+  position: relative;
 }
 
 .nav-bar {
@@ -26,6 +27,7 @@ html {
   font-family: 'Cinzel', serif;
   margin-top: -25px;
   float: right;
+  display: inline;
 }
 
 .nav-bar p:hover {
@@ -37,10 +39,6 @@ html {
   margin-left: 10px;
   margin-top: 5px;
   transform: rotate(-93deg);
-}
-.nav-bar p {
-  float: right;
-  display: inline;
 }
 
 .hero {

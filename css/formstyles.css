@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: #3f3f3f;
+}
+
+.nav-bar {
+  height: 5vh;
+}
+
+.nav-bar h4 {
+  font-family: 'Cinzel', serif;
+  font-size: 1.5em;
+  margin-left: 5px;
+  padding-top: 15px;
+  width: 40%
+}
+
+.nav-bar p {
+  font-size: 20px;
+  margin-right: 10px;
+  font-family: 'Cinzel', serif;
+  margin-top: -25px;
+  float: right;
+  display: inline;
+}
+
+.nav-bar p:hover {
+  color: #878181;
+}
+
+.nav-bar img {
+  float: left;
+  margin-left: 10px;
+  margin-top: 5px;
+  transform: rotate(-93deg);
+}
+
+.hero {
+  background: linear-gradient(#020202ee, transparent, #020202ee), url("../img/hero2.jpg") no-repeat center;
+  background-size: cover;
+  height: 30vh;
+  width: 100%;
+  position: relative;
+}
+
+.table-wrap {
+  position: relative;
+}
+
+.table {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: block;
+  font-family: sans-serif;
+}
+
+ h1 {
+  font-family: 'Timmana', sans-serif;
+  text-align: center;
+  font-size: 2em;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+th {
+  background-color: #56040c;
+  font-size: 1.5em;
+  width: 400px;
+}
+
+td {
+  background-color: #817a76;
+  font-size: 1em;
+  width: 400px;
+}
+
+.news-letter {
+  position: relative;
+}
+
+.form {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, 0);
+
+}

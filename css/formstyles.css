@@ -146,6 +146,13 @@ h3 {
   margin-left: 2px;
 }
 
+#last::after {
+  content: "<-- Please Choose One";
+  color: #56040c;
+  font-family: sans-serif;
+  margin-left: 10px;
+}
+
 button {
   width: 400px;
   height: 45px;

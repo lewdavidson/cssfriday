@@ -47,6 +47,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #878181;
+}
+
 .hero {
   background: linear-gradient(#020202ee, transparent, #020202ee), url("../img/hero.jpg") no-repeat center;
   background-size: cover;
@@ -86,7 +90,6 @@ hr {
 .col-left {
   float: left;
   margin-left: 40px;
-  margin-right: 5px;
   margin-top: 2.5px;
   width: 45%;
   font-family: sans-serif;
@@ -95,6 +98,10 @@ hr {
 
 .col-left p {
   margin-bottom: 25px;
+}
+
+.col-left li:nth-child(5n) {
+  color: #56040c;
 }
 
 .col-left li {
@@ -126,15 +133,15 @@ hr {
 h3 {
   font-family: 'Timmana', sans-serif;
   font-size: 2.5em;
-  display: block;
 }
 
 .col-right {
   float: right;
   margin-right: 40px;
   margin-top: 2.5px;
-  width: 50%;
+  width: 45%;
   margin-bottom: 20px;
+  overflow: auto;
 }
 
 .col-right h3 {

@@ -41,6 +41,11 @@ html {
   transform: rotate(-93deg);
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
 .hero {
   background: linear-gradient(#020202ee, transparent, #020202ee), url("../img/hero.jpg") no-repeat center;
   background-size: cover;

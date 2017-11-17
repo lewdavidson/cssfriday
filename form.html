@@ -45,17 +45,19 @@
       <form class="form">
         <h1>Sign Up to recieve exclusive promotions from Shun</h1>
         <div class="form-body">
-          <input type="text" name="name" value="Enter Your Name *">
-          <input type="text" name="name" value="Enter Your Email *">
+          <input class="form-line" type="text" name="name" value="Enter Your Name *">
+          <input class="form-line" type="text" name="name" value="Enter Your Email *">
           <h3>Is it okay for Shun to contact you with sale information?</h3>
-          <label class="container">Yes
-            <input type="checkbox" checked="checked">
-            <span class="checkmark"></span>
-          </label>
-          <label class="container">No
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
+          <div class="checks">
+            <label class="container"><span class="check-font">Yes</span>
+              <input class="check-box" type="checkbox" checked="checked">
+              <span class="checkmark"></span>
+            </label>
+            <label class="container"><span class="check-font">No</span>
+              <input class="check-box" type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+          </div>
           <button type="button" name="submit">Sign Up</button>
         </div>
       </form>

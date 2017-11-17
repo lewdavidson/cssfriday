@@ -40,6 +40,15 @@ html {
   transform: rotate(-93deg);
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #878181;
+}
+
 .hero {
   background: linear-gradient(#020202ee, transparent, #020202ee), url("../img/hero2.jpg") no-repeat center;
   background-size: cover;
@@ -91,7 +100,52 @@ td {
 .form {
   position: absolute;
   left: 50%;
-  top: 100%;
+  top: 300px;
   transform: translate(-50%, 0);
+}
 
+.form-body {
+  margin-left: 23px;
+}
+
+.form-line {
+  width: 300px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size:.8em;
+  padding-left: 4px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  text-align: center;
+  /*margin-bottom: 5px;*/
+  font-family:  'Timmana', sans-serif;
+  font-size: 1.3em;
+}
+
+.checks {
+  margin-left: 40%;
+}
+
+.check-font {
+  font-size: 1.5em;
+  font-family: 'Timmana', sans-serif;
+}
+.check-box {
+  margin-right: 10px;
+  margin-left: 2px;
+}
+
+button {
+  width: 400px;
+  height: 45px;
+  border-radius: 5px;
+  margin-left: 120px;
+  margin-top: 20px;
+  font-size: 1em;
+  background-color: #56040c;
+  border: 2px solid black;
+  font-weight: bold;
 }

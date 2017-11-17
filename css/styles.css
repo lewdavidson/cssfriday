@@ -28,6 +28,7 @@ html {
   margin-top: -25px;
   float: right;
   display: inline;
+  overflow: auto;
 }
 
 .nav-bar p:hover {

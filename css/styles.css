@@ -5,7 +5,7 @@
 }
 
 html {
-  background: #3f3f3f;
+  background: linear-gradient(to bottom right, #3f3f3f, #7D7878);
   position: relative;
 }
 

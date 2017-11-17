@@ -4,8 +4,10 @@
   padding: 0;
 }
 
+*:hover {cursor: url(http://cur.cursors-4u.net/others/oth-8/oth704.cur), progress !important;}
+
 html {
-  background: #3f3f3f;
+  background-color: #3f3f3f;
 }
 
 .nav-bar {

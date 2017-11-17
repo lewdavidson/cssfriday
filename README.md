@@ -9,9 +9,9 @@
 A web store advertising the Shun Icon knife. Includes a summary, photo gallery, size guide, and sign up form.
 
 ## Specifications
-|Term|Description|implementation|
-|-----||---------||-------------|
-|border-box|tells the browser to account for any margin or padding that I give an element. The width and height will include the margin and padding, shrinking the content inside instead of the whole element.|I used border-box on the whole page to make it easier to give all of my styling exact dimensions and spaces on the page.|
+| Term | Description | implementation |
+| ----- || --------- || ------------- |
+| border-box | tells the browser to account for any margin or padding that I give an element. The width and height will include the margin and padding, shrinking the content inside instead of the whole element. || I used border-box on the whole page to make it easier to give all of my styling exact dimensions and spaces on the page. |
 |float| the float's value tells the page which side the element should be on and tells the content to flow along side of it, instead of going inside of it.|I used it on my columns and nav bar to keep both sides separate upon resizing the page.|
 |display:block|tells the element to display on a single line, taking up the full width of the page.| I used it in my page break to tell the dotted border to take up the full width of the page.|
 |display:inline|tells the element to only take up as much space as it needs to. Or as much space as you specifically tell it to.|I used inline in my nav bar to keep the right-hand elements from trying to overflow into the hero image.|

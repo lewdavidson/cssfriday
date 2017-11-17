@@ -88,9 +88,10 @@ th {
 }
 
 td {
-  background-color: #817a76;
+  background-color: #747978;
   font-size: 1em;
   width: 400px;
+  box-shadow: 1px 1px;
 }
 
 .news-letter {
@@ -116,6 +117,13 @@ td {
   font-size:.8em;
   padding-left: 4px;
   margin-bottom: 15px;
+  background-color: #747978;
+  border: none;
+  box-shadow: 1px 1px;
+}
+
+.form-line:focus {
+  opacity: 0.5;
 }
 
 h3 {
@@ -142,10 +150,15 @@ button {
   width: 400px;
   height: 45px;
   border-radius: 5px;
-  margin-left: 120px;
+  margin-left: 110px;
   margin-top: 20px;
   font-size: 1em;
   background-color: #56040c;
   border: 2px solid black;
   font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.8;
+  box-shadow: 2px 2px;
 }
